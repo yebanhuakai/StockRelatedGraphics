@@ -30,6 +30,12 @@
 		45D81F131FA8A48F00B8D6F0 /* GuDongView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D81F101FA8A48F00B8D6F0 /* GuDongView.xib */; };
 		45D81F161FA8A4AE00B8D6F0 /* NSString+InsertComma.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F141FA8A4AE00B8D6F0 /* NSString+InsertComma.m */; };
 		45D81F1A1FA8A5DD00B8D6F0 /* GudongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F191FA8A5DD00B8D6F0 /* GudongViewController.m */; };
+		45D81F411FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F3F1FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.m */; };
+		45D81F421FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D81F401FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.xib */; };
+		45D81F461FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F431FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.m */; };
+		45D81F471FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D81F441FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.xib */; };
+		45D81F4D1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F4B1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.m */; };
+		45D81F4E1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D81F4C1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.xib */; };
 		777919BEC91E48CF888FD184 /* libPods-Graphs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24274C84E49AF457135B4939 /* libPods-Graphs.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +82,15 @@
 		45D81F151FA8A4AE00B8D6F0 /* NSString+InsertComma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InsertComma.h"; sourceTree = "<group>"; };
 		45D81F181FA8A5DD00B8D6F0 /* GudongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GudongViewController.h; sourceTree = "<group>"; };
 		45D81F191FA8A5DD00B8D6F0 /* GudongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GudongViewController.m; sourceTree = "<group>"; };
+		45D81F3E1FA8B07E00B8D6F0 /* GuPiaoPeiZhiDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuPiaoPeiZhiDrawView.h; sourceTree = "<group>"; };
+		45D81F3F1FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuPiaoPeiZhiDrawView.m; sourceTree = "<group>"; };
+		45D81F401FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuPiaoPeiZhiDrawView.xib; sourceTree = "<group>"; };
+		45D81F431FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRJStockGuPiaoPeiZhiView.m; sourceTree = "<group>"; };
+		45D81F441FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRJStockGuPiaoPeiZhiView.xib; sourceTree = "<group>"; };
+		45D81F451FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRJStockGuPiaoPeiZhiView.h; sourceTree = "<group>"; };
+		45D81F4A1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuPiaoPeiZhiViewController.h; sourceTree = "<group>"; };
+		45D81F4B1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuPiaoPeiZhiViewController.m; sourceTree = "<group>"; };
+		45D81F4C1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuPiaoPeiZhiViewController.xib; sourceTree = "<group>"; };
 		846AF70908B55762AB331209 /* Pods-Graphs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graphs/Pods-Graphs.release.xcconfig"; sourceTree = "<group>"; };
 		884C12120EE612CBF1DBCAA8 /* Pods-Graphs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graphs/Pods-Graphs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +139,7 @@
 				45C5E58D1FA8971100FCDC7C /* PaiHangViews */,
 				45D81F0B1FA8A48F00B8D6F0 /* GuDongViews */,
 				45C5E5541FA878C900FCDC7C /* Main.storyboard */,
+				45D81F3D1FA8B05A00B8D6F0 /* GuPiaoPeizhi */,
 				45C5E5571FA878C900FCDC7C /* Assets.xcassets */,
 				45C5E5591FA878C900FCDC7C /* LaunchScreen.storyboard */,
 				45C5E55C1FA878C900FCDC7C /* Info.plist */,
@@ -213,6 +229,22 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		45D81F3D1FA8B05A00B8D6F0 /* GuPiaoPeizhi */ = {
+			isa = PBXGroup;
+			children = (
+				45D81F451FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.h */,
+				45D81F431FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.m */,
+				45D81F441FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.xib */,
+				45D81F3E1FA8B07E00B8D6F0 /* GuPiaoPeiZhiDrawView.h */,
+				45D81F3F1FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.m */,
+				45D81F401FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.xib */,
+				45D81F4A1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.h */,
+				45D81F4B1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.m */,
+				45D81F4C1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.xib */,
+			);
+			path = GuPiaoPeizhi;
+			sourceTree = "<group>";
+		};
 		71F014AC64134E4B87E43C2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,10 +323,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D81F471FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.xib in Resources */,
 				45D81F131FA8A48F00B8D6F0 /* GuDongView.xib in Resources */,
 				45C5E55B1FA878C900FCDC7C /* LaunchScreen.storyboard in Resources */,
 				45C5E5841FA88BC200FCDC7C /* LeiJiShouYiLvView.xib in Resources */,
+				45D81F421FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.xib in Resources */,
 				45C5E5581FA878C900FCDC7C /* Assets.xcassets in Resources */,
+				45D81F4E1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.xib in Resources */,
 				45C5E5951FA8971100FCDC7C /* RankHistogramView.xib in Resources */,
 				45C5E5561FA878C900FCDC7C /* Main.storyboard in Resources */,
 			);
@@ -366,9 +401,12 @@
 				45C5E5751FA8876300FCDC7C /* WaveGridArrowUp.m in Sources */,
 				45C5E55E1FA878C900FCDC7C /* main.m in Sources */,
 				45C5E5851FA88BC200FCDC7C /* LeiJiShouYiLvView.m in Sources */,
+				45D81F4D1FA8BA3100B8D6F0 /* GuPiaoPeiZhiViewController.m in Sources */,
+				45D81F461FA8B11F00B8D6F0 /* JRJStockGuPiaoPeiZhiView.m in Sources */,
 				45C5E5501FA878C900FCDC7C /* AppDelegate.m in Sources */,
 				45C5E5771FA8876300FCDC7C /* WaveGridArrowDown.m in Sources */,
 				45C5E5761FA8876300FCDC7C /* WaveGridArrow.m in Sources */,
+				45D81F411FA8B07F00B8D6F0 /* GuPiaoPeiZhiDrawView.m in Sources */,
 				45C5E56C1FA8871C00FCDC7C /* WaveGridArrowViewController.m in Sources */,
 				45C5E5931FA8971100FCDC7C /* RankHistogramView.m in Sources */,
 				45C5E59E1FA89F1200FCDC7C /* RankViewController.m in Sources */,

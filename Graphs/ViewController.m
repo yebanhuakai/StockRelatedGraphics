@@ -11,6 +11,7 @@
 #import "LeijishouyiViewController.h"
 #import "RankViewController.h"
 #import "GudongViewController.h"
+#import "GuPiaoPeiZhiViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 {
@@ -31,7 +32,12 @@
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
     
-    _titles = @[@"波浪箭头动画", @"累计收益曲线", @"个股排行矩形", @"股东人数动画", @"波浪箭头动画"];
+    _titles = @[@"波浪箭头动画", @"累计收益曲线", @"个股排行矩形", @"股东人数动画", @"饼状图动画"];
+}
+
+- (NSString *)title
+{
+    return @"股票相关图形";
 }
 
 #pragma mark - UITableView Delegate
@@ -79,6 +85,12 @@
         case 3:
         {
             GudongViewController *wgaVC = [[GudongViewController alloc] init];
+            [self.navigationController pushViewController:wgaVC animated:YES];
+        }
+            break;
+        case 4:
+        {
+            GuPiaoPeiZhiViewController *wgaVC = [[GuPiaoPeiZhiViewController alloc] initWithNibName:@"GuPiaoPeiZhiViewController" bundle:nil];
             [self.navigationController pushViewController:wgaVC animated:YES];
         }
             break;
