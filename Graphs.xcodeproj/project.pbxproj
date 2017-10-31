@@ -26,6 +26,10 @@
 		45C5E5951FA8971100FCDC7C /* RankHistogramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E5901FA8971100FCDC7C /* RankHistogramView.xib */; };
 		45C5E5981FA8984B00FCDC7C /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */; };
 		45C5E59E1FA89F1200FCDC7C /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E59D1FA89F1200FCDC7C /* RankViewController.m */; };
+		45D81F111FA8A48F00B8D6F0 /* GuDongView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F0D1FA8A48F00B8D6F0 /* GuDongView.m */; };
+		45D81F131FA8A48F00B8D6F0 /* GuDongView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D81F101FA8A48F00B8D6F0 /* GuDongView.xib */; };
+		45D81F161FA8A4AE00B8D6F0 /* NSString+InsertComma.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F141FA8A4AE00B8D6F0 /* NSString+InsertComma.m */; };
+		45D81F1A1FA8A5DD00B8D6F0 /* GudongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D81F191FA8A5DD00B8D6F0 /* GudongViewController.m */; };
 		777919BEC91E48CF888FD184 /* libPods-Graphs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24274C84E49AF457135B4939 /* libPods-Graphs.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +69,13 @@
 		45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encoding.m"; sourceTree = "<group>"; };
 		45C5E59C1FA89F1200FCDC7C /* RankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
 		45C5E59D1FA89F1200FCDC7C /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		45D81F0D1FA8A48F00B8D6F0 /* GuDongView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuDongView.m; sourceTree = "<group>"; };
+		45D81F0E1FA8A48F00B8D6F0 /* GuDongView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuDongView.h; sourceTree = "<group>"; };
+		45D81F101FA8A48F00B8D6F0 /* GuDongView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuDongView.xib; sourceTree = "<group>"; };
+		45D81F141FA8A4AE00B8D6F0 /* NSString+InsertComma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InsertComma.m"; sourceTree = "<group>"; };
+		45D81F151FA8A4AE00B8D6F0 /* NSString+InsertComma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InsertComma.h"; sourceTree = "<group>"; };
+		45D81F181FA8A5DD00B8D6F0 /* GudongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GudongViewController.h; sourceTree = "<group>"; };
+		45D81F191FA8A5DD00B8D6F0 /* GudongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GudongViewController.m; sourceTree = "<group>"; };
 		846AF70908B55762AB331209 /* Pods-Graphs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graphs/Pods-Graphs.release.xcconfig"; sourceTree = "<group>"; };
 		884C12120EE612CBF1DBCAA8 /* Pods-Graphs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graphs/Pods-Graphs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,14 +117,12 @@
 				45C5E54F1FA878C900FCDC7C /* AppDelegate.m */,
 				45C5E5511FA878C900FCDC7C /* ViewController.h */,
 				45C5E5521FA878C900FCDC7C /* ViewController.m */,
-				45C5E58A1FA890BC00FCDC7C /* UIViewExt.h */,
-				45C5E58B1FA890BC00FCDC7C /* UIViewExt.m */,
-				45C5E5961FA8984A00FCDC7C /* NSString+Encoding.h */,
-				45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */,
+				45D81F171FA8A4B600B8D6F0 /* Tools */,
 				45C5E5781FA88B0D00FCDC7C /* HttpRequest */,
 				45C5E56D1FA8874000FCDC7C /* WaveGridArrow */,
 				45C5E57D1FA88B4400FCDC7C /* Leijishouyi */,
 				45C5E58D1FA8971100FCDC7C /* PaiHangViews */,
+				45D81F0B1FA8A48F00B8D6F0 /* GuDongViews */,
 				45C5E5541FA878C900FCDC7C /* Main.storyboard */,
 				45C5E5571FA878C900FCDC7C /* Assets.xcassets */,
 				45C5E5591FA878C900FCDC7C /* LaunchScreen.storyboard */,
@@ -177,6 +186,31 @@
 				45C5E59D1FA89F1200FCDC7C /* RankViewController.m */,
 			);
 			path = PaiHangViews;
+			sourceTree = "<group>";
+		};
+		45D81F0B1FA8A48F00B8D6F0 /* GuDongViews */ = {
+			isa = PBXGroup;
+			children = (
+				45D81F0E1FA8A48F00B8D6F0 /* GuDongView.h */,
+				45D81F0D1FA8A48F00B8D6F0 /* GuDongView.m */,
+				45D81F101FA8A48F00B8D6F0 /* GuDongView.xib */,
+				45D81F181FA8A5DD00B8D6F0 /* GudongViewController.h */,
+				45D81F191FA8A5DD00B8D6F0 /* GudongViewController.m */,
+			);
+			path = GuDongViews;
+			sourceTree = "<group>";
+		};
+		45D81F171FA8A4B600B8D6F0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				45D81F151FA8A4AE00B8D6F0 /* NSString+InsertComma.h */,
+				45D81F141FA8A4AE00B8D6F0 /* NSString+InsertComma.m */,
+				45C5E58A1FA890BC00FCDC7C /* UIViewExt.h */,
+				45C5E58B1FA890BC00FCDC7C /* UIViewExt.m */,
+				45C5E5961FA8984A00FCDC7C /* NSString+Encoding.h */,
+				45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		71F014AC64134E4B87E43C2B /* Frameworks */ = {
@@ -257,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D81F131FA8A48F00B8D6F0 /* GuDongView.xib in Resources */,
 				45C5E55B1FA878C900FCDC7C /* LaunchScreen.storyboard in Resources */,
 				45C5E5841FA88BC200FCDC7C /* LeiJiShouYiLvView.xib in Resources */,
 				45C5E5581FA878C900FCDC7C /* Assets.xcassets in Resources */,
@@ -324,7 +359,10 @@
 				45C5E5981FA8984B00FCDC7C /* NSString+Encoding.m in Sources */,
 				45C5E5801FA88B6600FCDC7C /* LeijishouyiViewController.m in Sources */,
 				45C5E58C1FA890BD00FCDC7C /* UIViewExt.m in Sources */,
+				45D81F1A1FA8A5DD00B8D6F0 /* GudongViewController.m in Sources */,
+				45D81F111FA8A48F00B8D6F0 /* GuDongView.m in Sources */,
 				45C5E5531FA878C900FCDC7C /* ViewController.m in Sources */,
+				45D81F161FA8A4AE00B8D6F0 /* NSString+InsertComma.m in Sources */,
 				45C5E5751FA8876300FCDC7C /* WaveGridArrowUp.m in Sources */,
 				45C5E55E1FA878C900FCDC7C /* main.m in Sources */,
 				45C5E5851FA88BC200FCDC7C /* LeiJiShouYiLvView.m in Sources */,
