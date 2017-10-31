@@ -13,9 +13,24 @@
 		45C5E5581FA878C900FCDC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E5571FA878C900FCDC7C /* Assets.xcassets */; };
 		45C5E55B1FA878C900FCDC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E5591FA878C900FCDC7C /* LaunchScreen.storyboard */; };
 		45C5E55E1FA878C900FCDC7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E55D1FA878C900FCDC7C /* main.m */; };
+		45C5E56C1FA8871C00FCDC7C /* WaveGridArrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E56B1FA8871C00FCDC7C /* WaveGridArrowViewController.m */; };
+		45C5E5751FA8876300FCDC7C /* WaveGridArrowUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E56F1FA8876300FCDC7C /* WaveGridArrowUp.m */; };
+		45C5E5761FA8876300FCDC7C /* WaveGridArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E5701FA8876300FCDC7C /* WaveGridArrow.m */; };
+		45C5E5771FA8876300FCDC7C /* WaveGridArrowDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E5711FA8876300FCDC7C /* WaveGridArrowDown.m */; };
+		45C5E57B1FA88B0D00FCDC7C /* SHY_HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E5791FA88B0D00FCDC7C /* SHY_HttpRequest.m */; };
+		45C5E5801FA88B6600FCDC7C /* LeijishouyiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E57F1FA88B6600FCDC7C /* LeijishouyiViewController.m */; };
+		45C5E5841FA88BC200FCDC7C /* LeiJiShouYiLvView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E5811FA88BC100FCDC7C /* LeiJiShouYiLvView.xib */; };
+		45C5E5851FA88BC200FCDC7C /* LeiJiShouYiLvView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E5831FA88BC200FCDC7C /* LeiJiShouYiLvView.m */; };
+		45C5E58C1FA890BD00FCDC7C /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E58B1FA890BC00FCDC7C /* UIViewExt.m */; };
+		45C5E5931FA8971100FCDC7C /* RankHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E58E1FA8971100FCDC7C /* RankHistogramView.m */; };
+		45C5E5951FA8971100FCDC7C /* RankHistogramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C5E5901FA8971100FCDC7C /* RankHistogramView.xib */; };
+		45C5E5981FA8984B00FCDC7C /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */; };
+		45C5E59E1FA89F1200FCDC7C /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E59D1FA89F1200FCDC7C /* RankViewController.m */; };
+		777919BEC91E48CF888FD184 /* libPods-Graphs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24274C84E49AF457135B4939 /* libPods-Graphs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24274C84E49AF457135B4939 /* libPods-Graphs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Graphs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C5E54B1FA878C900FCDC7C /* Graphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C5E54E1FA878C900FCDC7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45C5E54F1FA878C900FCDC7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +41,32 @@
 		45C5E55A1FA878C900FCDC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C5E55C1FA878C900FCDC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45C5E55D1FA878C900FCDC7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C5E56A1FA8871C00FCDC7C /* WaveGridArrowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveGridArrowViewController.h; sourceTree = "<group>"; };
+		45C5E56B1FA8871C00FCDC7C /* WaveGridArrowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrowViewController.m; sourceTree = "<group>"; };
+		45C5E56F1FA8876300FCDC7C /* WaveGridArrowUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrowUp.m; sourceTree = "<group>"; };
+		45C5E5701FA8876300FCDC7C /* WaveGridArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrow.m; sourceTree = "<group>"; };
+		45C5E5711FA8876300FCDC7C /* WaveGridArrowDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveGridArrowDown.m; sourceTree = "<group>"; };
+		45C5E5721FA8876300FCDC7C /* WaveGridArrowUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveGridArrowUp.h; sourceTree = "<group>"; };
+		45C5E5731FA8876300FCDC7C /* WaveGridArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveGridArrow.h; sourceTree = "<group>"; };
+		45C5E5741FA8876300FCDC7C /* WaveGridArrowDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveGridArrowDown.h; sourceTree = "<group>"; };
+		45C5E5791FA88B0D00FCDC7C /* SHY_HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHY_HttpRequest.m; sourceTree = "<group>"; };
+		45C5E57A1FA88B0D00FCDC7C /* SHY_HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHY_HttpRequest.h; sourceTree = "<group>"; };
+		45C5E57E1FA88B6600FCDC7C /* LeijishouyiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeijishouyiViewController.h; sourceTree = "<group>"; };
+		45C5E57F1FA88B6600FCDC7C /* LeijishouyiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeijishouyiViewController.m; sourceTree = "<group>"; };
+		45C5E5811FA88BC100FCDC7C /* LeiJiShouYiLvView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeiJiShouYiLvView.xib; sourceTree = "<group>"; };
+		45C5E5821FA88BC200FCDC7C /* LeiJiShouYiLvView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiJiShouYiLvView.h; sourceTree = "<group>"; };
+		45C5E5831FA88BC200FCDC7C /* LeiJiShouYiLvView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiJiShouYiLvView.m; sourceTree = "<group>"; };
+		45C5E58A1FA890BC00FCDC7C /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		45C5E58B1FA890BC00FCDC7C /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		45C5E58E1FA8971100FCDC7C /* RankHistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankHistogramView.m; sourceTree = "<group>"; };
+		45C5E5901FA8971100FCDC7C /* RankHistogramView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankHistogramView.xib; sourceTree = "<group>"; };
+		45C5E5921FA8971100FCDC7C /* RankHistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankHistogramView.h; sourceTree = "<group>"; };
+		45C5E5961FA8984A00FCDC7C /* NSString+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encoding.h"; sourceTree = "<group>"; };
+		45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encoding.m"; sourceTree = "<group>"; };
+		45C5E59C1FA89F1200FCDC7C /* RankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		45C5E59D1FA89F1200FCDC7C /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		846AF70908B55762AB331209 /* Pods-Graphs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graphs/Pods-Graphs.release.xcconfig"; sourceTree = "<group>"; };
+		884C12120EE612CBF1DBCAA8 /* Pods-Graphs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graphs/Pods-Graphs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777919BEC91E48CF888FD184 /* libPods-Graphs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +86,8 @@
 			children = (
 				45C5E54D1FA878C900FCDC7C /* Graphs */,
 				45C5E54C1FA878C900FCDC7C /* Products */,
+				810CCD0FFB2C37CDFB938ACC /* Pods */,
+				71F014AC64134E4B87E43C2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +106,14 @@
 				45C5E54F1FA878C900FCDC7C /* AppDelegate.m */,
 				45C5E5511FA878C900FCDC7C /* ViewController.h */,
 				45C5E5521FA878C900FCDC7C /* ViewController.m */,
+				45C5E58A1FA890BC00FCDC7C /* UIViewExt.h */,
+				45C5E58B1FA890BC00FCDC7C /* UIViewExt.m */,
+				45C5E5961FA8984A00FCDC7C /* NSString+Encoding.h */,
+				45C5E5971FA8984A00FCDC7C /* NSString+Encoding.m */,
+				45C5E5781FA88B0D00FCDC7C /* HttpRequest */,
+				45C5E56D1FA8874000FCDC7C /* WaveGridArrow */,
+				45C5E57D1FA88B4400FCDC7C /* Leijishouyi */,
+				45C5E58D1FA8971100FCDC7C /* PaiHangViews */,
 				45C5E5541FA878C900FCDC7C /* Main.storyboard */,
 				45C5E5571FA878C900FCDC7C /* Assets.xcassets */,
 				45C5E5591FA878C900FCDC7C /* LaunchScreen.storyboard */,
@@ -71,6 +123,79 @@
 			path = Graphs;
 			sourceTree = "<group>";
 		};
+		45C5E56D1FA8874000FCDC7C /* WaveGridArrow */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E56A1FA8871C00FCDC7C /* WaveGridArrowViewController.h */,
+				45C5E56B1FA8871C00FCDC7C /* WaveGridArrowViewController.m */,
+				45C5E56E1FA8876300FCDC7C /* WaveGridArrow */,
+			);
+			path = WaveGridArrow;
+			sourceTree = "<group>";
+		};
+		45C5E56E1FA8876300FCDC7C /* WaveGridArrow */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E56F1FA8876300FCDC7C /* WaveGridArrowUp.m */,
+				45C5E5701FA8876300FCDC7C /* WaveGridArrow.m */,
+				45C5E5711FA8876300FCDC7C /* WaveGridArrowDown.m */,
+				45C5E5721FA8876300FCDC7C /* WaveGridArrowUp.h */,
+				45C5E5731FA8876300FCDC7C /* WaveGridArrow.h */,
+				45C5E5741FA8876300FCDC7C /* WaveGridArrowDown.h */,
+			);
+			path = WaveGridArrow;
+			sourceTree = "<group>";
+		};
+		45C5E5781FA88B0D00FCDC7C /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E57A1FA88B0D00FCDC7C /* SHY_HttpRequest.h */,
+				45C5E5791FA88B0D00FCDC7C /* SHY_HttpRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		45C5E57D1FA88B4400FCDC7C /* Leijishouyi */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E5821FA88BC200FCDC7C /* LeiJiShouYiLvView.h */,
+				45C5E5831FA88BC200FCDC7C /* LeiJiShouYiLvView.m */,
+				45C5E5811FA88BC100FCDC7C /* LeiJiShouYiLvView.xib */,
+				45C5E57E1FA88B6600FCDC7C /* LeijishouyiViewController.h */,
+				45C5E57F1FA88B6600FCDC7C /* LeijishouyiViewController.m */,
+			);
+			path = Leijishouyi;
+			sourceTree = "<group>";
+		};
+		45C5E58D1FA8971100FCDC7C /* PaiHangViews */ = {
+			isa = PBXGroup;
+			children = (
+				45C5E5921FA8971100FCDC7C /* RankHistogramView.h */,
+				45C5E58E1FA8971100FCDC7C /* RankHistogramView.m */,
+				45C5E5901FA8971100FCDC7C /* RankHistogramView.xib */,
+				45C5E59C1FA89F1200FCDC7C /* RankViewController.h */,
+				45C5E59D1FA89F1200FCDC7C /* RankViewController.m */,
+			);
+			path = PaiHangViews;
+			sourceTree = "<group>";
+		};
+		71F014AC64134E4B87E43C2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24274C84E49AF457135B4939 /* libPods-Graphs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		810CCD0FFB2C37CDFB938ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884C12120EE612CBF1DBCAA8 /* Pods-Graphs.debug.xcconfig */,
+				846AF70908B55762AB331209 /* Pods-Graphs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45C5E5611FA878C900FCDC7C /* Build configuration list for PBXNativeTarget "Graphs" */;
 			buildPhases = (
+				D9C46EE7AF5344225D2178A5 /* [CP] Check Pods Manifest.lock */,
 				45C5E5471FA878C900FCDC7C /* Sources */,
 				45C5E5481FA878C900FCDC7C /* Frameworks */,
 				45C5E5491FA878C900FCDC7C /* Resources */,
+				1DA3D293BADD66D41DF5C161 /* [CP] Embed Pods Frameworks */,
+				9BF6ADAAA7633E2D89E4232F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,21 +258,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C5E55B1FA878C900FCDC7C /* LaunchScreen.storyboard in Resources */,
+				45C5E5841FA88BC200FCDC7C /* LeiJiShouYiLvView.xib in Resources */,
 				45C5E5581FA878C900FCDC7C /* Assets.xcassets in Resources */,
+				45C5E5951FA8971100FCDC7C /* RankHistogramView.xib in Resources */,
 				45C5E5561FA878C900FCDC7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DA3D293BADD66D41DF5C161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graphs/Pods-Graphs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF6ADAAA7633E2D89E4232F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graphs/Pods-Graphs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C46EE7AF5344225D2178A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45C5E5471FA878C900FCDC7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C5E57B1FA88B0D00FCDC7C /* SHY_HttpRequest.m in Sources */,
+				45C5E5981FA8984B00FCDC7C /* NSString+Encoding.m in Sources */,
+				45C5E5801FA88B6600FCDC7C /* LeijishouyiViewController.m in Sources */,
+				45C5E58C1FA890BD00FCDC7C /* UIViewExt.m in Sources */,
 				45C5E5531FA878C900FCDC7C /* ViewController.m in Sources */,
+				45C5E5751FA8876300FCDC7C /* WaveGridArrowUp.m in Sources */,
 				45C5E55E1FA878C900FCDC7C /* main.m in Sources */,
+				45C5E5851FA88BC200FCDC7C /* LeiJiShouYiLvView.m in Sources */,
 				45C5E5501FA878C900FCDC7C /* AppDelegate.m in Sources */,
+				45C5E5771FA8876300FCDC7C /* WaveGridArrowDown.m in Sources */,
+				45C5E5761FA8876300FCDC7C /* WaveGridArrow.m in Sources */,
+				45C5E56C1FA8871C00FCDC7C /* WaveGridArrowViewController.m in Sources */,
+				45C5E5931FA8971100FCDC7C /* RankHistogramView.m in Sources */,
+				45C5E59E1FA89F1200FCDC7C /* RankViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +465,7 @@
 		};
 		45C5E5621FA878C900FCDC7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884C12120EE612CBF1DBCAA8 /* Pods-Graphs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +480,7 @@
 		};
 		45C5E5631FA878C900FCDC7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846AF70908B55762AB331209 /* Pods-Graphs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
